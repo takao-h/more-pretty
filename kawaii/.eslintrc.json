@@ -5,10 +5,7 @@
     "commonjs": true,
     "es6": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -24,9 +21,7 @@
     "indent": [
       2,
       2,
-      {
-        "SwitchCase": 1
-      }
+      {"SwitchCase": 1}
     ],
     "linebreak-style": [
       2,
@@ -36,25 +31,15 @@
       2,
       "never"
     ],
-    "quotes": [
-      2,
-      "single"
-    ],
     "no-console": 0,
-    "comma-dangle": [
-      2,
-      "never"
-    ],
-    "react/jsx-space-before-closing": [
-      2,
-      "never"
-    ],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5"
-      }
-    ]
+    "comma-dangle": [2, "never"],
+    "react/jsx-space-before-closing": [2, "never"],
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "bracketSpacing": true,
+      "jsxBracketSameLine": true,
+      "semi":false
+    }]
   },
   "globals": {
     "AjaxZip3": true
